@@ -15,20 +15,16 @@ public class WhiteFigure : MonoBehaviour
         board = GameObject.FindGameObjectWithTag("B");
     }
 
-    void Update()
-    {
-        if (pawn && transform.position.x < -5.0f)
-        {
-            GameObject g = Instantiate(queenPrefab, new Vector3(transform.position.x, transform.position.y, transform.position.z + 0.13f), Quaternion.identity);
-            g.transform.SetParent(board.transform);
-            Destroy(gameObject);
-        }
-    }
-
     void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Black" && BlackFigure.attacking)
         {
+            Destroy(gameObject);
+        }
+        else if(collider.gameObject.tag == "WhiteEnd" && pawn)
+        {
+            GameObject g = Instantiate(queenPrefab, transform);
+            g.transform.SetParent(board.transform);
             Destroy(gameObject);
         }
     }

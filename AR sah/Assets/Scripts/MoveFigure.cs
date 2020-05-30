@@ -7,7 +7,6 @@ public class MoveFigure : MonoBehaviour
     private GameObject touchedObject;
     private GameObject figure;
     private bool figureIsTouched = false;
-    private bool white = false;
     private Material previousMat;
     public Material selectedMat;
 
@@ -27,20 +26,17 @@ public class MoveFigure : MonoBehaviour
                     {
                         if (!figureIsTouched)
                         {
-                            white = true;
                             WhiteFigure.attacking = true;
                             BlackFigure.attacking = false;
                             figure = touchedObject;
                             figureIsTouched = true;
                             previousMat = figure.GetComponent<MeshRenderer>().material;
-                            selectedMat.mainTexture = previousMat.mainTexture;
                             figure.GetComponent<MeshRenderer>().material = selectedMat;
                         }
                         else
                         {
                             figure.GetComponent<MeshRenderer>().material = previousMat;
-                            figure.transform.position = new Vector3(touchedObject.transform.position.x, touchedObject.transform.position.y, figure.transform.position.z);
-                            figure = null;
+                            figure.transform.position = touchedObject.transform.position;
                             figureIsTouched = false;
                         }
                     }
@@ -48,20 +44,17 @@ public class MoveFigure : MonoBehaviour
                     {
                         if (!figureIsTouched)
                         {
-                            white = false;
                             WhiteFigure.attacking = false;
                             BlackFigure.attacking = true;
                             figure = touchedObject;
                             figureIsTouched = true;
                             previousMat = figure.GetComponent<MeshRenderer>().material;
-                            selectedMat.mainTexture = previousMat.mainTexture;
                             figure.GetComponent<MeshRenderer>().material = selectedMat;
                         }
                         else
                         {
                             figure.GetComponent<MeshRenderer>().material = previousMat;
-                            figure.transform.position = new Vector3(touchedObject.transform.position.x, touchedObject.transform.position.y, figure.transform.position.z);
-                            figure = null;
+                            figure.transform.position = touchedObject.transform.position;
                             figureIsTouched = false;
                         }
                     }
@@ -69,8 +62,7 @@ public class MoveFigure : MonoBehaviour
                 else if (touchedObject.tag == "Board" && figureIsTouched)
                 {
                     figure.GetComponent<MeshRenderer>().material = previousMat;
-                    figure.transform.position = new Vector3(touchedObject.transform.position.x, touchedObject.transform.position.y, figure.transform.position.z);
-                    figure = null;
+                    figure.transform.position = touchedObject.transform.position;
                     figureIsTouched = false;
                 }
             }

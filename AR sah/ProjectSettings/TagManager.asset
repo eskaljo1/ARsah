@@ -8,6 +8,8 @@ TagManager:
   - White
   - Black
   - B
+  - BlackEnd
+  - WhiteEnd
   layers:
   - Default
   - TransparentFX
