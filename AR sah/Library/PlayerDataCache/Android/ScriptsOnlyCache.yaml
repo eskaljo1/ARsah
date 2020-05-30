@@ -1,18 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - BlackFigure
     - MoveFigure
+    - WhiteFigure
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Image
-    - UnityEngine.UI.Text
     Vuforia.UnityExtensions.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
@@ -41,7 +40,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -54,40 +57,32 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9738}
     - Class: 114
-      Script: {instanceID: 9812}
+      Script: {instanceID: 10202}
     - Class: 114
-      Script: {instanceID: 9892}
+      Script: {instanceID: 10306}
     - Class: 114
-      Script: {instanceID: 9932}
+      Script: {instanceID: 10412}
     - Class: 114
-      Script: {instanceID: 10204}
+      Script: {instanceID: 10434}
     - Class: 114
-      Script: {instanceID: 10308}
-    - Class: 114
-      Script: {instanceID: 10414}
-    - Class: 114
-      Script: {instanceID: 10436}
+      Script: {instanceID: 10442}
     - Class: 114
       Script: {instanceID: 10444}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10852}
+      Script: {instanceID: 10684}
     - Class: 114
-      Script: {instanceID: 11036}
+      Script: {instanceID: 11038}
     - Class: 114
-      Script: {instanceID: 11302}
+      Script: {instanceID: 11304}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11724}
+    - Class: 114
+      Script: {instanceID: 11726}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
     - Class: 157
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -126,12 +121,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
-  - hash:
-      serializedVersion: 2
-      Hash: 45b74943d0ee75c968ab06d087e948ab
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoveFigure
   - hash:
       serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
@@ -710,6 +699,18 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 3e10040956e08d16fe65c8df6684e132
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BlackFigure
+  - hash:
+      serializedVersion: 2
+      Hash: ed3fb813031298a381bc23d6cf626b1e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveFigure
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1098,6 +1099,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 3e10040956e08d16fe65c8df6684e132
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WhiteFigure
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
