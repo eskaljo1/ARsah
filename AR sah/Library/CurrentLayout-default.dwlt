@@ -265,8 +265,8 @@ MonoBehaviour:
     y: 0
     width: 335
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1192.5, y: 550}
+  m_LastWindowPixelSize: {x: 954, y: 440}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -384,7 +384,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4ae1ffff80e1ffffdae1fffffef4ffff34f5ffff2cf7ffff76fbffff323f00002e410000
+      m_ExpandedIDs: 18f0ffff4ef0ffff42f2ffff6afbffff76fbffff38330000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -444,9 +444,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.32454228, y: 0.046649966, z: -0.2719363}
+    m_Target: {x: 0.017682103, y: 0.0039582253, z: -0.20174399}
     speed: 2
-    m_Value: {x: -0.32454228, y: 0.046649966, z: -0.2719363}
+    m_Value: {x: 0.017682103, y: 0.0039582253, z: -0.20174399}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -475,13 +475,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.09974448, y: 0.2696035, z: -0.028089408, w: 0.95738405}
+    m_Target: {x: 0.25398746, y: -0.008709229, z: 0.0022855937, w: 0.9671702}
     speed: 2
-    m_Value: {x: 0.10118003, y: 0.26955995, z: -0.028493673, w: 0.9572295}
+    m_Value: {x: 0.2539783, y: -0.011610644, z: 0.003047531, w: 0.96713537}
   m_Size:
-    m_Target: 0.24597347
+    m_Target: 0.54327065
     speed: 2
-    m_Value: -0.054026544
+    m_Value: 0.24327065
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -572,20 +572,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\Fakultet\MMS\ARsah\AR sah
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 67}
-    m_SelectedIDs: ba320000
-    m_LastClickedID: 12986
-    m_ExpandedIDs: 00000000ba2e0000343000003c31000000ca9a3b
+    m_SelectedIDs: 90300000
+    m_LastClickedID: 12432
+    m_ExpandedIDs: 00000000ba2e0000363000003e31000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -613,7 +613,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ba2e0000343000003c310000
+    m_ExpandedIDs: 00000000ba2e0000363000003e310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
