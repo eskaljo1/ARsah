@@ -21,10 +21,10 @@ public class WhiteFigure : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if(collider.gameObject.tag == "WhiteEnd" && pawn)
+        else if (collider.gameObject.tag == "WhiteEnd" && pawn)
         {
-            GameObject g = Instantiate(queenPrefab, transform);
-            g.transform.SetParent(board.transform);
+            GameObject g = Instantiate(queenPrefab, board.transform);
+            g.transform.position = transform.position;
             Destroy(gameObject);
         }
     }

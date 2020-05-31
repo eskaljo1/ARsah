@@ -59,7 +59,7 @@ public class MoveFigure : MonoBehaviour
                         }
                     }
                 }
-                else if (touchedObject.tag == "Board" && figureIsTouched)
+                else if ((touchedObject.tag == "WhiteEnd" || touchedObject.tag == "BlackEnd" || touchedObject.tag == "Board") && figureIsTouched)
                 {
                     figure.GetComponent<MeshRenderer>().material = previousMat;
                     figure.transform.position = touchedObject.transform.position;

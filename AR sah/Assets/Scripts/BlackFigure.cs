@@ -23,8 +23,8 @@ public class BlackFigure : MonoBehaviour
         }
         else if (collider.gameObject.tag == "BlackEnd" && pawn)
         {
-            GameObject g = Instantiate(queenPrefab, transform);
-            g.transform.SetParent(board.transform);
+            GameObject g = Instantiate(queenPrefab, board.transform);
+            g.transform.position = transform.position;
             Destroy(gameObject);
         }
     }
