@@ -35,6 +35,16 @@ public class MoveFigure : MonoBehaviour
                             figure.GetComponent<Animator>().SetTrigger("Click");
                             figure.GetComponent<AudioSource>().Play();
                         }
+                        else if (figure.tag == "White")
+                        {
+                            figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
+                            figure.GetComponent<Animator>().SetTrigger("Move");
+                            figure = touchedObject;
+                            previousMat = figure.GetComponentInChildren<MeshRenderer>().material;
+                            figure.GetComponentInChildren<MeshRenderer>().material = selectedMat;
+                            figure.GetComponent<Animator>().SetTrigger("Click");
+                            figure.GetComponent<AudioSource>().Play();
+                        }
                         else
                         {
                             figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
@@ -52,6 +62,16 @@ public class MoveFigure : MonoBehaviour
                             BlackFigure.attacking = true;
                             figure = touchedObject;
                             figureIsTouched = true;
+                            previousMat = figure.GetComponentInChildren<MeshRenderer>().material;
+                            figure.GetComponentInChildren<MeshRenderer>().material = selectedMat;
+                            figure.GetComponent<Animator>().SetTrigger("Click");
+                            figure.GetComponent<AudioSource>().Play();
+                        }
+                        else if (figure.tag == "Black")
+                        {
+                            figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
+                            figure.GetComponent<Animator>().SetTrigger("Move");
+                            figure = touchedObject;
                             previousMat = figure.GetComponentInChildren<MeshRenderer>().material;
                             figure.GetComponentInChildren<MeshRenderer>().material = selectedMat;
                             figure.GetComponent<Animator>().SetTrigger("Click");
