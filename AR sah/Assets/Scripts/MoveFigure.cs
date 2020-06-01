@@ -30,14 +30,17 @@ public class MoveFigure : MonoBehaviour
                             BlackFigure.attacking = false;
                             figure = touchedObject;
                             figureIsTouched = true;
-                            previousMat = figure.GetComponent<MeshRenderer>().material;
-                            figure.GetComponent<MeshRenderer>().material = selectedMat;
+                            previousMat = figure.GetComponentInChildren<MeshRenderer>().material;
+                            figure.GetComponentInChildren<MeshRenderer>().material = selectedMat;
                             figure.GetComponent<Animator>().SetTrigger("Click");
+                            figure.GetComponent<AudioSource>().Play();
                         }
                         else
                         {
-                            figure.GetComponent<MeshRenderer>().material = previousMat;
+                            figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
                             figure.transform.position = touchedObject.transform.position;
+                            figure.GetComponent<Animator>().SetTrigger("Eat");
+                            figure.GetComponent<AudioSource>().Play();
                             figureIsTouched = false;
                         }
                     }
@@ -49,22 +52,27 @@ public class MoveFigure : MonoBehaviour
                             BlackFigure.attacking = true;
                             figure = touchedObject;
                             figureIsTouched = true;
-                            previousMat = figure.GetComponent<MeshRenderer>().material;
-                            figure.GetComponent<MeshRenderer>().material = selectedMat;
+                            previousMat = figure.GetComponentInChildren<MeshRenderer>().material;
+                            figure.GetComponentInChildren<MeshRenderer>().material = selectedMat;
                             figure.GetComponent<Animator>().SetTrigger("Click");
+                            figure.GetComponent<AudioSource>().Play();
                         }
                         else
                         {
-                            figure.GetComponent<MeshRenderer>().material = previousMat;
+                            figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
                             figure.transform.position = touchedObject.transform.position;
+                            figure.GetComponent<Animator>().SetTrigger("Eat");
+                            figure.GetComponent<AudioSource>().Play();
                             figureIsTouched = false;
                         }
                     }
                 }
                 else if ((touchedObject.tag == "WhiteEnd" || touchedObject.tag == "BlackEnd" || touchedObject.tag == "Board") && figureIsTouched)
                 {
-                    figure.GetComponent<MeshRenderer>().material = previousMat;
+                    figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
                     figure.transform.position = touchedObject.transform.position;
+                    figure.GetComponent<Animator>().SetTrigger("Move");
+                    figure.GetComponent<AudioSource>().Play();
                     figureIsTouched = false;
                 }
             }
