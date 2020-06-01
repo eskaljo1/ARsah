@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7161057191606460031}
   - component: {fileID: 7161057191606460028}
   - component: {fileID: 7161057191606460030}
+  - component: {fileID: 7658032262258801991}
   m_Layer: 0
   m_Name: White Queen
   m_TagString: White
@@ -124,3 +125,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pawn: 0
   queenPrefab: {fileID: 7710367783710407512}
+--- !u!95 &7658032262258801991
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7710367783710407512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be582e6e438118740a984e0c8c1f323a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

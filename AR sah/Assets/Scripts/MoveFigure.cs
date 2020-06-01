@@ -32,6 +32,7 @@ public class MoveFigure : MonoBehaviour
                             figureIsTouched = true;
                             previousMat = figure.GetComponent<MeshRenderer>().material;
                             figure.GetComponent<MeshRenderer>().material = selectedMat;
+                            figure.GetComponent<Animator>().SetTrigger("Click");
                         }
                         else
                         {
@@ -50,6 +51,7 @@ public class MoveFigure : MonoBehaviour
                             figureIsTouched = true;
                             previousMat = figure.GetComponent<MeshRenderer>().material;
                             figure.GetComponent<MeshRenderer>().material = selectedMat;
+                            figure.GetComponent<Animator>().SetTrigger("Click");
                         }
                         else
                         {

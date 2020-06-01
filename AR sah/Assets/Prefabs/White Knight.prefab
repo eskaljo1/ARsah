@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5291878494227424986}
   - component: {fileID: 5291878494227424985}
   - component: {fileID: 5291878494227424987}
+  - component: {fileID: 9142414258581965718}
   m_Layer: 0
   m_Name: White Knight
   m_TagString: White
@@ -125,3 +126,22 @@ MonoBehaviour:
   pawn: 0
   queenPrefab: {fileID: 7710367783710407512, guid: c54290b34acdf774f9cc34c23fc080e2,
     type: 3}
+--- !u!95 &9142414258581965718
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6521859277971812666}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bc7667a7325d05945940dc33494f0623, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
