@@ -200,8 +200,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pawn: 0
-  queenPrefab: {fileID: 6314075788236604387, guid: bcecdc32919ccae4283cc7722b22f3e8,
+  queenPrefab: {fileID: 4452491591714389206, guid: bcecdc32919ccae4283cc7722b22f3e8,
     type: 3}
+  graveyard: {fileID: 0}
 --- !u!82 &6677881186119254082
 AudioSource:
   m_ObjectHideFlags: 0

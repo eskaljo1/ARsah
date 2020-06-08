@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BlackFigure.cs" />
     <Compile Include="Assets\Scripts\MoveFigure.cs" />
+    <Compile Include="Assets\Scripts\Queen.cs" />
     <Compile Include="Assets\Scripts\WhiteFigure.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\ARsah.xml" />
     <Reference Include="Unity.Timeline.Editor">

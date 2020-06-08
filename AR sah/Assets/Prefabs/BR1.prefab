@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pawn: 0
-  queenPrefab: {fileID: 2232192863057641575, guid: 46f6e42a6c0498547b173da8ca7f6290,
+  queenPrefab: {fileID: 8158348941629705744, guid: 46f6e42a6c0498547b173da8ca7f6290,
     type: 3}
   graveyard: {fileID: 0}
 --- !u!54 &7738495013831735591
