@@ -29,7 +29,7 @@ public class BlackFigure : MonoBehaviour
         {
             GameObject g = Instantiate(queenPrefab, board.transform);
             g.transform.position = transform.position;
-            Destroy(gameObject);
+            transform.position = graveyard.transform.position;
         }
     }
 }

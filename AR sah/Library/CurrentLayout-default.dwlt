@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 122
+  controlID: 76
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +184,8 @@ MonoBehaviour:
     y: 0
     width: 245
     height: 454
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -210,8 +210,8 @@ MonoBehaviour:
     y: 0
     width: 956
     height: 454
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -382,9 +382,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ca300000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 10b8ffff46b8ffffeab9ffff30fbffff76fbffffa8330000
+      m_ExpandedIDs: 96f5ffffcef5ffff76f7ffff76fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -477,11 +477,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.31071448, y: 0.11369629, z: -0.03746164, w: 0.94294626}
     speed: 2
-    m_Value: {x: 0.31065464, y: 0.11510936, z: -0.037927266, w: 0.94276464}
+    m_Value: {x: 0.31071118, y: 0.113695085, z: -0.03746124, w: 0.94293624}
   m_Size:
     m_Target: 1.640327
     speed: 2
-    m_Value: 1.340327
+    m_Value: 1.640327
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -572,19 +572,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\Fakultet\MMS\ARsah\AR sah
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ba2e0000
-    m_LastClickedID: 11962
+    scrollPos: {x: 0, y: 94}
+    m_SelectedIDs: 2c330000
+    m_LastClickedID: 13100
     m_ExpandedIDs: 00000000ba2e000068300000483100008231000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
