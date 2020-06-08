@@ -8,6 +8,7 @@ public class BlackFigure : MonoBehaviour
     public bool pawn;
     private GameObject board;
     public GameObject queenPrefab;
+    public GameObject graveyard;
 
     void Start()
     {
@@ -19,7 +20,10 @@ public class BlackFigure : MonoBehaviour
     {
         if (collider.gameObject.tag == "White" && WhiteFigure.attacking)
         {
-            Destroy(gameObject);
+            if (graveyard == null)
+                Destroy(gameObject);
+            else
+                transform.position = graveyard.transform.position;
         }
         else if (collider.gameObject.tag == "BlackEnd" && pawn)
         {

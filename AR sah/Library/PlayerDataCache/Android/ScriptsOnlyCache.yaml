@@ -707,7 +707,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 3e10040956e08d16fe65c8df6684e132
+      Hash: 996dfaccb738bd39968a8f8996236efe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BlackFigure
@@ -1109,7 +1109,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 3e10040956e08d16fe65c8df6684e132
+      Hash: 996dfaccb738bd39968a8f8996236efe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WhiteFigure
