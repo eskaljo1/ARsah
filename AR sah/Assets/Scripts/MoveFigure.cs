@@ -50,7 +50,6 @@ public class MoveFigure : MonoBehaviour
                             figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
                             figure.transform.position = touchedObject.transform.position;
                             figure.GetComponent<Animator>().SetTrigger("Eat");
-                            figure.GetComponent<AudioSource>().Play();
                             figureIsTouched = false;
                         }
                     }
@@ -82,7 +81,6 @@ public class MoveFigure : MonoBehaviour
                             figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
                             figure.transform.position = touchedObject.transform.position;
                             figure.GetComponent<Animator>().SetTrigger("Eat");
-                            figure.GetComponent<AudioSource>().Play();
                             figureIsTouched = false;
                         }
                     }
@@ -92,7 +90,6 @@ public class MoveFigure : MonoBehaviour
                     figure.GetComponentInChildren<MeshRenderer>().material = previousMat;
                     figure.transform.position = touchedObject.transform.position;
                     figure.GetComponent<Animator>().SetTrigger("Move");
-                    figure.GetComponent<AudioSource>().Play();
                     figureIsTouched = false;
                 }
             }
