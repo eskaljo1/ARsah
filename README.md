@@ -1,4 +1,5 @@
 # ARsah
-Augmented Reality chess application made with Unity 2019.2.16f1.
-AR feature is implemented using Vuforia's image recognition.
-Has multiplayer feature which is implemented using Photon Engine 2.
+An Augmented Reality chess application made for Android using Unity 2019.2.16f1. 
+There are two modes: singleplayer and multiplayer. 
+The application uses Vuforia's image recognition to setup the chessboard. 
+Multiplayer was implemented using Photon Engine 2.
